@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		B0A0ECE228A6C6E000896CFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A0ECE128A6C6E000896CFD /* AppDelegate.swift */; };
-		B0A0ECE428A6C6E000896CFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A0ECE328A6C6E000896CFD /* ViewController.swift */; };
 		B0A0ECE628A6C6E200896CFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A0ECE528A6C6E200896CFD /* Assets.xcassets */; };
 		B0A0ECE928A6C6E200896CFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A0ECE728A6C6E200896CFD /* Main.storyboard */; };
+		B0A0ECF128A6C8DA00896CFD /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A0ECF028A6C8DA00896CFD /* WindowController.swift */; };
+		B0A0ECF528A6D5E800896CFD /* WidthSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A0ECF428A6D5E800896CFD /* WidthSliderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B0A0ECDE28A6C6E000896CFD /* StudioLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudioLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0A0ECDE28A6C6E000896CFD /* Sparkles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sparkles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A0ECE128A6C6E000896CFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B0A0ECE328A6C6E000896CFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B0A0ECE528A6C6E200896CFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0A0ECE828A6C6E200896CFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0A0ECEA28A6C6E200896CFD /* StudioLight.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StudioLight.entitlements; sourceTree = "<group>"; };
+		B0A0ECF028A6C8DA00896CFD /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		B0A0ECF428A6D5E800896CFD /* WidthSliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidthSliderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +46,7 @@
 		B0A0ECDF28A6C6E000896CFD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B0A0ECDE28A6C6E000896CFD /* StudioLight.app */,
+				B0A0ECDE28A6C6E000896CFD /* Sparkles.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,10 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				B0A0ECE128A6C6E000896CFD /* AppDelegate.swift */,
-				B0A0ECE328A6C6E000896CFD /* ViewController.swift */,
 				B0A0ECE528A6C6E200896CFD /* Assets.xcassets */,
 				B0A0ECE728A6C6E200896CFD /* Main.storyboard */,
 				B0A0ECEA28A6C6E200896CFD /* StudioLight.entitlements */,
+				B0A0ECF028A6C8DA00896CFD /* WindowController.swift */,
+				B0A0ECF428A6D5E800896CFD /* WidthSliderViewController.swift */,
 			);
 			path = StudioLight;
 			sourceTree = "<group>";
@@ -64,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B0A0ECDD28A6C6E000896CFD /* StudioLight */ = {
+		B0A0ECDD28A6C6E000896CFD /* Sparkles */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B0A0ECED28A6C6E200896CFD /* Build configuration list for PBXNativeTarget "StudioLight" */;
+			buildConfigurationList = B0A0ECED28A6C6E200896CFD /* Build configuration list for PBXNativeTarget "Sparkles" */;
 			buildPhases = (
 				B0A0ECDA28A6C6E000896CFD /* Sources */,
 				B0A0ECDB28A6C6E000896CFD /* Frameworks */,
@@ -76,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = StudioLight;
+			name = Sparkles;
 			productName = StudioLight;
-			productReference = B0A0ECDE28A6C6E000896CFD /* StudioLight.app */;
+			productReference = B0A0ECDE28A6C6E000896CFD /* Sparkles.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B0A0ECD928A6C6E000896CFD /* Build configuration list for PBXProject "StudioLight" */;
+			buildConfigurationList = B0A0ECD928A6C6E000896CFD /* Build configuration list for PBXProject "Sparkles" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B0A0ECDD28A6C6E000896CFD /* StudioLight */,
+				B0A0ECDD28A6C6E000896CFD /* Sparkles */,
 			);
 		};
 /* End PBXProject section */
@@ -131,7 +134,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0A0ECE428A6C6E000896CFD /* ViewController.swift in Sources */,
+				B0A0ECF528A6D5E800896CFD /* WidthSliderViewController.swift in Sources */,
+				B0A0ECF128A6C8DA00896CFD /* WindowController.swift in Sources */,
 				B0A0ECE228A6C6E000896CFD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +277,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StudioLight/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -298,6 +303,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StudioLight/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -316,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B0A0ECD928A6C6E000896CFD /* Build configuration list for PBXProject "StudioLight" */ = {
+		B0A0ECD928A6C6E000896CFD /* Build configuration list for PBXProject "Sparkles" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0A0ECEB28A6C6E200896CFD /* Debug */,
@@ -325,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B0A0ECED28A6C6E200896CFD /* Build configuration list for PBXNativeTarget "StudioLight" */ = {
+		B0A0ECED28A6C6E200896CFD /* Build configuration list for PBXNativeTarget "Sparkles" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0A0ECEE28A6C6E200896CFD /* Debug */,
